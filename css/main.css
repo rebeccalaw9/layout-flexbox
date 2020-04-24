@@ -99,6 +99,7 @@ html {
   background-color: #fff;
   height: 100%;
   width: 100%;
+
 }
 
 body {
@@ -114,6 +115,9 @@ footer {
   background-color: #222;
   height: 80px;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 main {
@@ -146,6 +150,11 @@ main {
 }
 
 .flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  justify-content:space-between;
   /*set display to flex and vertically & horizontally align by setting justify-content and align-items to center, and set flex-flow to row wrap*/
 }
 
@@ -157,6 +166,9 @@ main {
   background-color: #f16059;
   width: 30%;
   height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* ==========================================================================
